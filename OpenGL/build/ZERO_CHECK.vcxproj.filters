@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dillo\Documents\git\PhysicsEngine\build\CMakeFiles\ecf1ed2efb65a7eade80b3a266727c06\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DB8EFD54-3ECC-30F7-955F-9399FDE69070}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

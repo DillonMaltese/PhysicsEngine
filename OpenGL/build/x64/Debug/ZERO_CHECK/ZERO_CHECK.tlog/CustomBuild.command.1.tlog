@@ -1,0 +1,10 @@
+^C:\USERS\DILLO\DOCUMENTS\GIT\PHYSICSENGINE\BUILD\CMAKEFILES\ECF1ED2EFB65A7EADE80B3A266727C06\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/dillo/Documents/git/PhysicsEngine -BC:/Users/dillo/Documents/git/PhysicsEngine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/dillo/Documents/git/PhysicsEngine/build/PhysicsEngine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
