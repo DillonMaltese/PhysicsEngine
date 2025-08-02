@@ -18,7 +18,8 @@ class Gravity:
         self.gravity = 9.81
 
     def update(self, dt):
-        print("test ")
+        self.velo = dt
+
 
 # Class for making points
 class Vertex:
